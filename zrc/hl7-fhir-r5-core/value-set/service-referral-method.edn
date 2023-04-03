@@ -1,0 +1,9 @@
+{ns hl7-fhir-r5-core.value-set.service-referral-method,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "The methods of referral can be used when referring to a specific HealthcareService resource.",
+            :zen.fhir/version "0.6.17",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/service-referral-method",
+                                  :zen.fhir/content :not-present}},
+            :uri "http://hl7.org/fhir/ValueSet/service-referral-method",
+            :version "5.0.0"}}

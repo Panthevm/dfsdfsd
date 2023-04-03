@@ -1,0 +1,9 @@
+{ns hl7-fhir-r5-core.value-set.adverse-event-causality-assess,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Codes for the assessment of whether the entity caused the event.",
+            :zen.fhir/version "0.6.17",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/adverse-event-causality-assess",
+                                  :zen.fhir/content :not-present}},
+            :uri "http://hl7.org/fhir/ValueSet/adverse-event-causality-assess",
+            :version "5.0.0"}}

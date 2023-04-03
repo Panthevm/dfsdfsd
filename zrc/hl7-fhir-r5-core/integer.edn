@@ -1,0 +1,9 @@
+{ns hl7-fhir-r5-core.integer,
+ import #{zen.fhir hl7-fhir-r5-core.PrimitiveType},
+ schema {:zen/tags #{zen/schema zen.fhir/structure-schema},
+         :zen/desc "integer Type: A whole number",
+         :zen.fhir/type "integer",
+         :zen.fhir/profileUri "http://hl7.org/fhir/StructureDefinition/integer",
+         :zen.fhir/version "0.6.17",
+         :type zen/integer,
+         :confirms #{hl7-fhir-r5-core.PrimitiveType/schema}}}

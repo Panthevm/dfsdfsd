@@ -1,0 +1,12 @@
+{ns hl7-fhir-r5-core.search.ArtifactAssessment-date,
+ import #{zen.fhir},
+ search {:zen/tags #{zen.fhir/search},
+         :fhir/id "ArtifactAssessment-date",
+         :fhir/url "http://hl7.org/fhir/SearchParameter/ArtifactAssessment-date",
+         :fhir/type "date",
+         :name "date",
+         :expr {:ArtifactAssessment {:knife [["date"]],
+                                     :jsonpath ["$.\"date\"[*]"],
+                                     :data-types #{},
+                                     :template :date,
+                                     :sql {:where [:or]}}}}}

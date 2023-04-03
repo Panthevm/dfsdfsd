@@ -1,0 +1,9 @@
+{ns hl7-fhir-r5-core.value-set.endpoint-payload-type,
+ import #{zen.fhir},
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "This is an example value set defined by the FHIR project, that could be used to represent possible payload document types.",
+            :zen.fhir/version "0.6.17",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                  :zen.fhir/content :not-present}},
+            :uri "http://hl7.org/fhir/ValueSet/endpoint-payload-type",
+            :version "5.0.0"}}
